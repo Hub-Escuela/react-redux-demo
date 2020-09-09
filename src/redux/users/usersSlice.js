@@ -4,7 +4,7 @@ export const usersSlice = createSlice({
   name: 'users',
   initialState: {
     isLoading: false,
-    list: undefined
+    list: []
   },
   reducers: {
     findStarted: state => {
